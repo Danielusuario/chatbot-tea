@@ -36,7 +36,7 @@ const Chatbot = () => {
         params: {
           part: 'snippet',
           q: searchQuery, // Buscar con el término filtrado por emoción
-          key: 'AIzaSyAbedbFU28_d4Q4gBrIaJNv1Cbu2LlAy3w', // Tu clave de API de YouTube
+          key: 'APIKEYDEYOUTUBE', // Tu clave de API de YouTube
           type: 'video', // Solo videos
           videoDefinition: 'high', // Filtrar solo videos en alta definición
         },
