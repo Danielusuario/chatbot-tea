@@ -1,7 +1,7 @@
 
 # Chatbot TEA 🤖💬
 
-Un chatbot diseñado para niños con Trastorno del Espectro Autista (TEA), desarrollado en React y conectado a GPT para facilitar la interacción mediante pictogramas. 🎨🌟
+Un chatbot diseñado para niños con Trastorno del Espectro Autista (TEA), desarrollado en React y conectado a GPT para facilitar la interacción mediante pictogramas.
 
 ## 🚀 Pasos para iniciar el proyecto
 
