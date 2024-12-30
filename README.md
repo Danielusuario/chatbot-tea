@@ -1,15 +1,29 @@
-Cosas agregadas para correr el programa 
+# Cosas agregadas para correr el programa 
+# Chatbot TEA 🤖💬
+
+Un chatbot diseñado para niños con Trastorno del Espectro Autista (TEA), desarrollado en React y conectado a GPT para facilitar la interacción mediante pictogramas. 🎨🌟
+
+## 🚀 Pasos para iniciar el proyecto
+
+### 1️⃣ Crear una aplicación React
+Ejecuta el siguiente comando para crear el proyecto React:
+```bash
 
 npx create-react-app chatbot-tea
 cd chatbot-tea
 npm install axios
 npm start
+```
 
-crear dentro de src ' chatbot.js 
+
+## crear dentro de "src" chatbot.js 
+
 se crea el archivo igual del apikey en archivo env donde se guarda la apikey
- tambien antes de  iniciar el proyecto instalar la siguiente dependencia 
- npm install web-vitals
+tambien antes de  iniciar el proyecto instalar la siguiente dependencia 
 
+```bash
+npm install web-vitals
+```
 
 
 
