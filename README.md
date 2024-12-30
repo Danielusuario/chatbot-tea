@@ -10,10 +10,26 @@ Ejecuta el siguiente comando para crear el proyecto React:
 ```bash
 
 npx create-react-app chatbot-tea
+```
+2️⃣ Navega al directorio del proyecto
+```bash
 cd chatbot-tea
+```
+3️⃣ Instala Axios
+Axios se utiliza para manejar las solicitudes HTTP:
+```bash
 npm install axios
+```
+4️⃣ Inicia el servidor de desarrollo
+```bash
 npm start
 ```
+
+# 🛠️ Tecnologías utilizadas
+React: Biblioteca para construir interfaces de usuario.
+Axios: Cliente HTTP basado en promesas.
+OpenAI GPT: Motor de procesamiento de lenguaje natural.
+
 
 
 ## crear dentro de "src" chatbot.js 
