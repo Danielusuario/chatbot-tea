@@ -1,0 +1,129 @@
+/* Estilos base para la página */
+.help-page-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5fd; /* Azul claro para el fondo */
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  
+  .help-page-container h1 {
+    font-size: 2.5rem;
+    color: #176ba0; /* Azul oscuro */
+    margin-bottom: 10px;
+  }
+  
+  .help-page-container p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Contenedor del chat */
+  .chat-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #d0e5f2; /* Borde azul suave */
+  }
+  
+  /* Historial del chat */
+  .chat-history {
+    padding: 20px;
+    background-color: #f8fbfd; /* Fondo azul muy claro */
+    flex: 1;
+    overflow-y: auto;
+    max-height: 400px; /* Altura máxima para el scroll */
+  }
+  
+  .message {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .message.user {
+    justify-content: flex-end;
+  }
+  
+  .message.assistant {
+    justify-content: flex-start;
+  }
+  
+  .message strong {
+    display: none; /* Ocultamos los nombres como "Tú" o "Asistente" */
+  }
+  
+  .message .bubble {
+    padding: 10px 15px;
+    border-radius: 12px;
+    max-width: 75%;
+    font-size: 0.9rem;
+    word-wrap: break-word;
+  }
+  
+  .message.user .bubble {
+    background-color: #d0ebff; /* Azul claro */
+    color: #333;
+    align-self: flex-end;
+    border-top-right-radius: 0px;
+  }
+  
+  .message.assistant .bubble {
+    background-color: #e0f7fa; /* Celeste */
+    color: #333;
+    align-self: flex-start;
+    border-top-left-radius: 0px;
+  }
+  
+  /* Input del chat */
+  .chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f8fbfd;
+    border-top: 1px solid #d0e5f2;
+  }
+  
+  .chat-input textarea {
+    flex: 1;
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #e8f5fd;
+    font-size: 1rem;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .chat-input textarea::placeholder {
+    color: #999;
+  }
+  
+  .chat-input button {
+    background-color: #176ba0; /* Azul oscuro */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+  }
+  
+  .chat-input button:hover {
+    background-color: #14547a; /* Azul más oscuro */
+  }
+  
