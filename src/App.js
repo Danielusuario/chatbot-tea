@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import './App.css';
-import Chatbot from './chatbot'; // Importamos el componente Chatbot
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';  // Importa las rutas
+import Chatbot from './chatbot';  // El chatbot original
+import HelpPage from './HelpPage'; // Importa el componente HelpPage
 
 function App() {
   const [showChatbot, setShowChatbot] = useState(false); // Controla la visibilidad del Chatbot
